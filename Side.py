@@ -101,7 +101,7 @@ def start_job(client, message):
     ext = helper.get_ext(url)
     if not ext:
         message.reply_text('Erro ', quote=True)
-        ext = '.mp4'
+        ext = '.flv'
     if len(splited) < 2:
         caption = url   #just for now xD
         file_name = str(n) + ext
